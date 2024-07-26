@@ -44,6 +44,7 @@ const copypastetoclipboard = useCallback(()=> {
   passwordRef.current?.select();
   passwordRef.current?.setSelectionRange(0,999);
   window.navigator.clipboard.writeText(password)
+  className="outline-blue-800  bg-white text-blue-800"
 },[password]) 
 
   return (
